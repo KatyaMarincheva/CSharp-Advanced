@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse-String", "01. Reverse-String\01. Reverse-String.csproj", "{03BC6208-8435-4E0C-B67E-D0FB0C489CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. String-Length", "02. String-Length\02. String-Length.csproj", "{BA67B5FA-C846-4793-AF55-8955163F4963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Substring-Occurrences", "03. Substring-Occurrences\03. Substring-Occurrences.csproj", "{5251FEF2-1C2B-42B5-994F-2628217C81A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Text-Filter", "04. Text-Filter\04. Text-Filter.csproj", "{E7A253DF-213C-44CF-AA42-C07ED7671985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Unicode-Characters", "05. Unicode-Characters\05. Unicode-Characters.csproj", "{AAF166CB-7F76-4C01-971B-21AA6BA0F478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Palindromes", "06. Palindromes\06. Palindromes.csproj", "{CD3E6ABD-82E5-4106-B1E9-8ACEE7575E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Letters-Change-Numbers", "07. Letters-Change-Numbers\07. Letters-Change-Numbers.csproj", "{E2E39271-BDDD-4112-AFCC-C15E15DD2F98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03BC6208-8435-4E0C-B67E-D0FB0C489CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BC6208-8435-4E0C-B67E-D0FB0C489CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BC6208-8435-4E0C-B67E-D0FB0C489CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BC6208-8435-4E0C-B67E-D0FB0C489CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA67B5FA-C846-4793-AF55-8955163F4963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA67B5FA-C846-4793-AF55-8955163F4963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA67B5FA-C846-4793-AF55-8955163F4963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA67B5FA-C846-4793-AF55-8955163F4963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5251FEF2-1C2B-42B5-994F-2628217C81A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5251FEF2-1C2B-42B5-994F-2628217C81A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5251FEF2-1C2B-42B5-994F-2628217C81A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5251FEF2-1C2B-42B5-994F-2628217C81A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A253DF-213C-44CF-AA42-C07ED7671985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A253DF-213C-44CF-AA42-C07ED7671985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A253DF-213C-44CF-AA42-C07ED7671985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A253DF-213C-44CF-AA42-C07ED7671985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF166CB-7F76-4C01-971B-21AA6BA0F478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF166CB-7F76-4C01-971B-21AA6BA0F478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF166CB-7F76-4C01-971B-21AA6BA0F478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF166CB-7F76-4C01-971B-21AA6BA0F478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3E6ABD-82E5-4106-B1E9-8ACEE7575E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3E6ABD-82E5-4106-B1E9-8ACEE7575E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3E6ABD-82E5-4106-B1E9-8ACEE7575E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3E6ABD-82E5-4106-B1E9-8ACEE7575E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E39271-BDDD-4112-AFCC-C15E15DD2F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E39271-BDDD-4112-AFCC-C15E15DD2F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E39271-BDDD-4112-AFCC-C15E15DD2F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E39271-BDDD-4112-AFCC-C15E15DD2F98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

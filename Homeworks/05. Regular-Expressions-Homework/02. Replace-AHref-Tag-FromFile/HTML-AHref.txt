@@ -1,0 +1,60 @@
+<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+
+                    <strong class="caret"></strong>
+                </a>
+
+                <ul class="dropdown-menu userDropdown" id="dropdownAdmin">
+                    <li>
+                        <a class="custom-dropdown-header" href="/users/profile/show">
+                            <span class="glyphicon glyphicon-user"></span>&nbsp;Потребителски панел
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/account/manage">
+                            <span class="glyphicon glyphicon-cog"></span>&nbsp;Управление на акаунта
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/users/profile/edit">
+                            <span class="glyphicon glyphicon-pencil"></span>&nbsp;Редактиране на профила
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/users/teamwork/list">
+                            <span class="glyphicon glyphicon-briefcase"></span>&nbsp;Екипна работа
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/users/surveys">
+                            <span class="glyphicon glyphicon-inbox"></span>&nbsp;Анкети
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/home/schedule">
+                            <span class="glyphicon glyphicon-home"></span>&nbsp;График на учебните зали
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/certificates/certificates">
+                            <span class="glyphicon glyphicon-star"></span>&nbsp;Сертификати
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/users/payments/pay">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Заплащане
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/content/sentinel/sentinel.zip">
+                            <span class="glyphicon glyphicon-eye-open"></span>&nbsp;Sentinel клиент
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:document.getElementById('logoutForm').submit()">
+                            <span class="glyphicon glyphicon-log-out"></span>&nbsp;Изход
+                        </a>
+                    </li>
+                </ul>
+            </li>

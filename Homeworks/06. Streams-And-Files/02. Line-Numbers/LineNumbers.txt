@@ -1,0 +1,60 @@
+1 /* Problem 2.	Line Numbers
+2 Write a program that reads a text file and inserts line numbers in front of each of its lines. 
+3  * The result should be written to another text file. Use StreamReader in combination with StreamWriter.
+4  */
+5 
+6 using System;
+7 using System.IO;
+8 using System.Text;
+9 
+10 class LineNumbers
+11 {
+12     static void Main(string[] args)
+13     {
+14         StreamReader reader = null;
+15         StreamWriter writer = null;
+16 
+17         // open input (current) file
+18         try
+19         {
+20             reader = new StreamReader(@"..\..\LineNumbers.cs", Encoding.GetEncoding("windows-1251"));
+21         }
+22         catch (FileNotFoundException)
+23         {
+24             Console.WriteLine("File not found.");
+25         }
+26 
+27         // create output file
+28         try
+29         {
+30             writer = new StreamWriter(@"..\..\LineNumbers.txt");
+31         }
+32         catch (IOException)
+33         {
+34             Console.WriteLine("Unable to create output file.");
+35         }
+36 
+37 
+38         string s;
+39         int lineNumber = 1;
+40         using (reader)
+41         using (writer)
+42         {
+43             do // algorithm: read one line from input file, write line number + that line to output file
+44             {
+45                 s = reader.ReadLine();
+46                 writer.WriteLine("{0} {1}", lineNumber, s);
+47                 lineNumber++;
+48             } while (s != null);
+49         }
+50         Console.WriteLine("Task complete:\n");
+51 
+52         // print output file to the console
+53         string fileContents = File.ReadAllText(@"..\..\LineNumbers.txt");
+54         Console.WriteLine(fileContents);
+55     }
+56 }
+57 
+58 
+59 
+60 

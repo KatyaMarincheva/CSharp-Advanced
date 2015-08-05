@@ -1,0 +1,60 @@
+<li class="dropdown">
+                [URL href="#" class="dropdown-toggle" data-toggle="dropdown"]
+
+
+                    <strong class="caret"></strong>
+                [/URL]
+
+                <ul class="dropdown-menu userDropdown" id="dropdownAdmin">
+                    <li>
+                        [URL class="custom-dropdown-header" href="/users/profile/show"]
+                            <span class="glyphicon glyphicon-user"></span>&nbsp;������������� �����
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="/account/manage"]
+                            <span class="glyphicon glyphicon-cog"></span>&nbsp;���������� �� �������
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="/users/profile/edit"]
+                            <span class="glyphicon glyphicon-pencil"></span>&nbsp;����������� �� �������
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="/users/teamwork/list"]
+                            <span class="glyphicon glyphicon-briefcase"></span>&nbsp;������ ������
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="/users/surveys"]
+                            <span class="glyphicon glyphicon-inbox"></span>&nbsp;������
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="/home/schedule"]
+                            <span class="glyphicon glyphicon-home"></span>&nbsp;������ �� �������� ����
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="/certificates/certificates"]
+                            <span class="glyphicon glyphicon-star"></span>&nbsp;�����������
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="/users/payments/pay"]
+                            <span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;���������
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="/content/sentinel/sentinel.zip"]
+                            <span class="glyphicon glyphicon-eye-open"></span>&nbsp;Sentinel ������
+                        [/URL]
+                    </li>
+                    <li>
+                        [URL href="javascript:document.getElementById('logoutForm').submit()"]
+                            <span class="glyphicon glyphicon-log-out"></span>&nbsp;�����
+                        [/URL]
+                    </li>
+                </ul>
+            </li>

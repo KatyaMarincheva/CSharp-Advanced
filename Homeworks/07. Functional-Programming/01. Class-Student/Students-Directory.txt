@@ -1,0 +1,10 @@
+1
+Name: Todor Popov, Age: 50, Faculty Number: 80123, Phone: 0896123456, Email: tt@abv.bg, Grades: {4, 2, 6, 5, 3}
+Name: Stoyan Yankov, Age: 15, Faculty Number: 80125, Phone: 089612342, Email: ss@abv.bg, Grades: {2, 2, 6, 5, 3}
+2
+Name: Tonka Stancheva, Age: 42, Faculty Number: 80124, Phone: 0896123454, Email: mm@abv.bg, Grades: {6, 4, 6, 5, 6}
+Name: Svetla Kirilova, Age: 18, Faculty Number: 80126, Phone: 0896123450, Email: ii@abv.bg, Grades: {4, 2, 3, 5, 3}
+3
+Name: Kiril Evstatiev, Age: 22, Faculty Number: 80127, Phone: 0896123448, Email: kk@abv.bg, Grades: {2, 2, 3, 5, 3}
+4
+Name: Kameliya Videnova, Age: 50, Faculty Number: 80128, Phone: 0896123446, Email: ee@abv.bg, Grades: {4, 4, 4, 5, 3}
